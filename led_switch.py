@@ -15,6 +15,6 @@ while True:
 		count += 1
 		time.sleep(0.2)
 	if count%2 == 0:
-		GPIO.output(led, True)
+		GPIO.output(led, 0)
 	else:
-		GPIO.output(led, False)
+		GPIO.output(led, 1)
